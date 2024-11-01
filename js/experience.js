@@ -3,6 +3,7 @@ AOS.init();
 //  Work experience cards
 
 const experiencecards = document.querySelector(".experience-cards");
+<<<<<<< HEAD
 const exp = [{
         title: "Founder",
         cardImage: "assets/images/experience-page/codingzen.png",
@@ -23,13 +24,71 @@ const exp = [{
         cardImage: "assets/images/experience-page/hack2.jpeg",
         place: "hack2Skill",
         time: "(Mar - Aug, 2022)",
+=======
+const exp = [
+    {
+        title: "Member",
+        cardImage: "images/mindstaq_logo-1.jpeg",
+        place: "COEP's Data Science Artificial Intelligence Club",
+        time: "(OCT, 2024 - Current)",
+        // desp: "<li>During my internship at MindStaq, I worked on innovative AI projects and researched Large Language Models (LLMs). My key contributions included:</li> <li>  Exploring advanced AI technologies like Google Flan T5, LangChain, Hugging Face, Mistral, and Gemini.</li> <li>  Conducting research to optimize LLM integration into the MindStaq platform.</li>  <li>  Integrating and optimizing AI features for the platform..</li> <li>This internship significantly enhanced my skills in AI, Python, and project management.</li>",
+    },
+    {
+        title: "Artificial Intelligence Intern",
+        cardImage: "images/mindstaq_logo-1.jpeg",
+        place: "MindStaq",
+        time: "(Jan, 2024 - May 2024)",
+        desp: "<li>During my internship at MindStaq, I worked on innovative AI projects and researched Large Language Models (LLMs). My key contributions included:</li> <li>  Exploring advanced AI technologies like Google Flan T5, LangChain, Hugging Face, Mistral, and Gemini.</li> <li>  Conducting research to optimize LLM integration into the MindStaq platform.</li>  <li>  Integrating and optimizing AI features for the platform..</li> <li>This internship significantly enhanced my skills in AI, Python, and project management.</li>",
+    },
+    {
+        title: "Tech lead",
+        cardImage: "images/mlnagpur_logo.jpeg",
+        place: "ML Nagpur",
+        time: "(May, 2023 - present)",
+        desp: "<li>As the Tech Lead for Machine Learning in Nagpur, I spearheaded initiatives focused on:</li> <li>  Leading technical projects leveraging cutting-edge ML technologies.</li> <li>  Conducting sessions on open-source platforms, especially Hugging Face for NLP.</li>  <li>  This role enabled me to advance ML practices within the Nagpur tech community, fostering learning and collaboration.</li> ",
+    },
+    {
+        title: "Founder",
+        cardImage: "images/1702010901865.jpeg",
+        place: "CodingZen",
+        time: "(May, 2022 - present)",
+        desp: "<li>I am curently building the community of the zen-z coder's </li> <li> Designing layouts and curating content.</li> <li> Highlighting unique stories from our academic journey.</li> <li> Organizing cultural events, including Shivaji Jayanti..</li>",
+    },
+    {
+        title: "Magazine Secretary ",
+        cardImage: "images/government_polytechnic_sadar_nagpur_logo.jpeg",
+        place: "Government Polytechnic Nagpur",
+        time: "(Dec, 2023 - May 2024)",
+        desp: "<li>As the Magazine Secretary, I crafted an engaging website to showcase our student community. My key responsibilities included:</li> <li>Organize varoius event event around development of community</li> <li>Given Tech talk around Github &</li>",
+    },
+    {
+        title: "Executive Member",
+        cardImage: "images/indian_society_for_technical_education_logo.jpeg",
+        place: "ISTE",
+        time: "(May, 2023 - Nov 2023)",
+        desp: "<li>I had  Worked as ISTE(Indian Society For Technical Education) executive member.</li> <li>Organize varoius event event around development of community</li> <li>Given Tech talk around Github &</li>",
+    },
+
+   
+    {
+        title: "CampusLead",
+        cardImage: "images/hack2skill_logo.jpeg",
+        place: "hack2Skill",
+        time: "(sep 2022 - feb, 2023)",
+>>>>>>> ccd8a36 (new Update)
         desp: "<li>Worked with Hack2Skill community for organizing the global event around the sector of AI , AR, VR domain</li><li>Worked with core team for organizing different hackthons</li>",
     },
     {
         title: "Web Developer Intern",
+<<<<<<< HEAD
         cardImage: "assets/images/experience-page/cum.jpeg",
         place: "Commulation",
         time: "(Nov, 21 - Jan, 28)",
+=======
+        cardImage: "images/cumulation_logo.jpeg",
+        place: "Commulation",
+        time: "(Nov, 2021 - Jan, 2022)",
+>>>>>>> ccd8a36 (new Update)
         desp: "<li>Worked On there website for creating a Education Platform which will help them for campus Selection.</li> <li>Our mission was  to make Tier 3 and Tier 2 institute students placement ready by providing the best placement strategies</li>",
     },
 ];

@@ -5,6 +5,7 @@ AOS.init();
 const techStackCards = document.querySelector(".techstack-box");
 const techStack = [{
         langImage: "assets/images/techstack-page/html.png",
+<<<<<<< HEAD
         langName: "HyperText Markup Language",
         langDesc: "<li>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser</li>",
     },
@@ -12,6 +13,17 @@ const techStack = [{
         langImage: "assets/images/techstack-page/css.png",
         langName: "Cascading Style Sheets",
         langDesc: "<li>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML</li>",
+=======
+        langName: "LLM and RAG",
+        langDesc: "<li>During my internship at MindStaq, I conducted in-depth research on Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG). I explored their applications and optimized their integration into the MindStaq platform.</li>",
+    },
+    
+
+    {
+        langImage: "assets/images/techstack-page/css.png",
+        langName: "Team Management",
+        langDesc: "<li>I honed my team management skills by leading a team in Smart India Hackathon, coordinating as Magazine Secretary, and collaborating on group projects. These experiences enhanced my leadership, communication, and organizational abilities.</li>",
+>>>>>>> ccd8a36 (new Update)
     },
     {
         langImage: "assets/images/techstack-page/javascript.png",
@@ -67,7 +79,11 @@ const displayTechStacksCards = () => {
     <div class="row page-content techstackcards" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="0" data-aos-duration="400"> 
         <div class="tech_card">
             <div class="card_img">
+<<<<<<< HEAD
                 <img src ="${stack.langImage}" class="featured_image">
+=======
+
+>>>>>>> ccd8a36 (new Update)
             </div>
             <div class="card_header">
                 <header>
